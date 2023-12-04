@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Stackline Interview Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Requirements
 
-## Available Scripts
+Thank you for taking our web developer assessment. To complete the assessment, you will take what is
+provided and create a simple product web page that uses React to produce the view and Redux to
+manage the state.  It should take approximately 2 hours to complete a typical solution, but you may take
+up to 24 hours.  You may use any public npm packages.
+ Resources to get started (attached via email):
+1. A JSON file to be used as the data source to populate the web page
+2. A wire mockup of what your final web page should look like. You only need to implement the
+page with the graph and/or table.
+3. SVG of the Stackline logo
+We are looking for:
+1. A solution that resembles the provided mockup closely and implements AT LEAST ONE of either
+the graph or table as seen in the mockup
+2. A working solution that takes the provided JSON file as output from a mock API call
+3. A solution that implements React and Redux best practices and patterns
+4. Clean, easy to follow code
+Nice to haves:
+ Typescript
+ Functional components
+ Additional functionality in the graph or table, e.g. sorting, overlays
+Assets to be returned via email within the provided time frame:
+1. A public git repository to view the final code
+2. A public URL to view the web page --- can be hosted on GitHub Pages, AWS, Vercel, etc.
 
-In the project directory, you can run:
+## To install the Project
 
-### `npm start`
+In the project directory, you need to run:
 
-Runs the app in the development mode.\
+### `npm i`
+
+Installs all the required modules for the project
+
+## To run the Project
+
+### `npm run start`
+
+This will run the Shark Ninja Analytics page
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Future
 
-### `npm test`
+*Add Pagination for table
+*Create hash map for sorted data to avoid repeatedly sorting data
+*Add Cypress for visual tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Note
+*There are a lot more features and visuals that could be added to the graph but the goal here was to match the wireframe as closely as possible.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
